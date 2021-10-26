@@ -1,0 +1,84 @@
+/*.hero-banner section*/
+.hero-banner{
+    font-family: 'Merriweather', serif;
+    font-size: .88rem;
+    background-color:#0000
+}
+.hero-banner .inner-wrapper {
+    max-width: 1366px;
+    margin: auto;
+}
+/*navbar*/
+.hero-banner .nav-div {
+    height: 6.25rem;
+}
+/*1 logo*/
+.hero-banner .logo img{
+    width: 13rem;
+    margin-top: 0.9rem;
+    margin-left: -4rem;
+}
+/*2 menu items*/
+.hero-banner .nav-div{
+    padding: 0 3rem;   
+    margin: auto; 
+    background-color:  #E5F2FF;
+}
+.hero-banner .navbar{
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero-banner .nav-items ul{
+    display: flex;
+    font-size: .8rem;
+    padding: 0.2rem;
+}
+.hero-banner .nav-items ul li{
+    padding-left: 2.5rem;
+}
+
+/*banner image*/
+.hero-banner .inner-wrapper .banner-section {
+    height: 23.4rem;
+
+}
+.hero-banner .inner-wrapper .banner-section .banner-contant{
+    background:url("../assets/heroimg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+.hero-banner .inner-wrapper .banner-section .banner-contant h1{
+    font-family: 'Lora', serif;
+    color:  #002347;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.4rem;
+}
+.hero-banner .inner-wrapper .banner-section .banner-contant h1 span{ 
+    font-family: 'Lora', serif;
+    color: #FD7702;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+.hero-banner .inner-wrapper .banner-section .banner-contant{ 
+  text-align: center;
+  padding-top: 6rem;
+}
+.hero-banner .inner-wrapper .banner-section .banner-contant div button{ 
+    width: 10rem;
+    height: 2.75rem;
+    margin: 2rem 0;
+    font-family: 'Merriweather', serif;
+    background-color: #002347;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+
+
+

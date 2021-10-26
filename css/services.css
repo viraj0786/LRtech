@@ -1,0 +1,74 @@
+.services {
+  height: 32rem;
+}
+.services .inner-wrapper {
+  max-width: 1366px;
+
+  margin: auto;
+}
+.services .services-contant {
+  padding: 1rem 8rem !important;
+  position: relative;
+}
+.services .services-heading {
+  font-family: "Merriweather", serif;
+  color: #003366;
+}
+.services div hr {
+  height: 0.2rem;
+  background-color: #ff5003;
+  border: #ff5003;
+  width: 3.5rem;
+  position: absolute;
+  left: 14.6342%;
+}
+.services .services-contant .p {
+  padding: 1.5rem 0 1.5rem 0;
+}
+.services .services-carts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 5rem;
+}
+.services .services-CartList {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f5faff;
+  box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+
+}
+
+.services .services-CartList:hover {
+  box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+  transform: translateY(-10 px);
+  -webkit-transform: translateY(-10 px);
+  -moz-transform: translateY(-10px);
+}
+.services .services-CartList .left {
+  width: 33.33%;
+  text-align: center;
+  display: flex;
+}
+.services
+  .services-CartList
+  .right {
+  width: 66.66%;
+  padding: 0 1.4rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h3.cart-headnig{
+  font-size: 1.2rem;
+  white-space: nowrap;
+  margin-bottom: 0.3rem;
+}
+.services
+  .right
+  p {
+  font-size: 0.9rem;
+}
+

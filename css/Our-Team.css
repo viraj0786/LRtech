@@ -1,0 +1,66 @@
+.Our-Team {
+  height: 25rem;
+}
+.Our-Team .inner-wrapper {
+  max-width: 1366px;
+
+  margin: auto;
+}
+.Our-Team .Our-Team-contant {
+  padding: 1rem 8rem;
+  position: relative;
+}
+.Our-Team .Our-Team-contant .Our-Team-heading {
+  font-family: "Merriweather", serif;
+  color: #003366;
+}
+.Our-Team .Our-Team-contant div hr {
+  height: 0.2rem;
+  background-color: #ff5003;
+  border: #ff5003;
+  width: 3.5rem;
+  position: absolute;
+  left: 15%;
+}
+.team-membars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  background-image: url("../assets/Our\ Achievements\ Image\ with\ Opacity.png");
+}
+.member-name{
+    width: 320px;
+    height: 325px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-name h1{
+  padding-bottom: 0.5rem;
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+  color: #000000;
+}
+.member-name p{
+  padding-top: 0.5rem;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  color: #000000;
+}
+ .member-role .name{
+    font-family: "Merriweather", serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+}
+ .member-role p{
+    font-family: "Lora", serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 0.3rem;
+}

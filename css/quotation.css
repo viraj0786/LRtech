@@ -1,0 +1,31 @@
+.quotation{
+    height: 6rem;
+    background-color: #e6f2ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+
+}
+.quotation .inner-wrapper{
+    display: flex;
+    max-width: 1366px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.quotation .inner-wrapper h1{
+    color: #000000;
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+}
+.quotation .inner-wrapper button{
+    font-family: "Merriweather", serif;
+    color:  #ffffff;
+    background-color:  #002347;
+    border: none;
+    width: 12.75rem;
+    height: 3.75rem;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}

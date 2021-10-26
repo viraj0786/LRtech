@@ -1,0 +1,43 @@
+.footer{
+    height: 16rem;
+    background-color: #e5f2ff;
+}
+.footer .inner-wrapper{
+    max-width: 1366px;
+    margin: auto;
+    font-family: 'Lora', serif;
+}
+.footer .footer-contant{
+    padding: 0 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    font-size: 1.2rem;
+}
+.footer .Flogo img{  
+    height: 14rem;
+    padding-top: 1rem;
+    object-fit: contain;
+}
+.footer .Fmenu ul li{  
+    padding: 0.25rem 0;
+
+    text-align: center;
+}
+.footer .Cname{  
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.footer .LRsol{  
+    padding: 0.5rem 0;
+    font-weight: 700;
+}
+.footer .Cname h5{  
+    font-weight: 400;
+}
+.copyright span{
+    text-align: center;
+    display: block;
+    font-size: 0.7rem;
+    color:  #002347;
+}

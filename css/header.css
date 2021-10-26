@@ -1,0 +1,51 @@
+/* header company info*/
+.header{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    font-family: 'Lora', serif;
+    font-size: .88rem;
+    background-color:#0000
+}
+.header .inner-wrapper{
+    max-width: 1360px;
+    margin: auto;
+    height: 100%;
+    padding: 0.3rem 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+/*div company info*/
+.header .comp-info ul{
+    display: flex;
+    font-size: .7rem;
+}
+.header .comp-info ul li{
+    display: flex;
+    padding: 0 0.5rem;
+}
+.header .comp-info ul li img{
+    padding-right: 0.5rem;
+    
+}
+/* div action -icons*/
+.header .action-icons{
+    display: flex;
+    align-items: center;
+}
+.header .action-icons span{
+    display: flex;
+    padding: 0.2rem;
+}
+.header .action-icons span img{
+    display: flex;
+    height: fit-content;
+}
+
+
+
+
+    
